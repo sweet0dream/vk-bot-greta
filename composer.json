@@ -1,0 +1,5 @@
+{
+    "require": {
+        "tommyknocker/pdo-database-class": "^1.1"
+    }
+}

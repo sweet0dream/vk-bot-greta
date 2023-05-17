@@ -1,0 +1,75 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b120742e68049ba27860d94918dadda5",
+    "packages": [
+        {
+            "name": "tommyknocker/pdo-database-class",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tommyknocker/pdo-database-class.git",
+                "reference": "c7c8c1d679d96e1fa68fda7970f0d11408825d15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tommyknocker/pdo-database-class/zipball/c7c8c1d679d96e1fa68fda7970f0d11408825d15",
+                "reference": "c7c8c1d679d96e1fa68fda7970f0d11408825d15",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "PDODb.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Vasiliy A. Ulin",
+                    "email": "ulin.vasiliy@gmail.com",
+                    "homepage": "http://mysrv.ru",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP PDO Wrapper which utilizes PDO and prepared statements",
+            "homepage": "https://github.com/tommyknocker/pdo-database-class",
+            "keywords": [
+                "database",
+                "mssql",
+                "mysql",
+                "pdo",
+                "pdo_dblib",
+                "postgresql",
+                "sqlite"
+            ],
+            "support": {
+                "issues": "https://github.com/tommyknocker/pdo-database-class/issues",
+                "source": "https://github.com/tommyknocker/pdo-database-class/tree/v1.1.1"
+            },
+            "time": "2021-12-20T03:49:18+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}
